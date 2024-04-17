@@ -1,7 +1,9 @@
 classdef BW2 < handle
     % Bi Quad Filters
-    % Using Will Pirkles Filter Design (11.3.2.4) - Desiging Audio Effect
-    % Plugins
+    % Using Will Pirkles Filter Design (11.3.2.4) - Designing Audio Effect Plugins in C++: For AAX, AU, and VST3 with DSP Theory 
+    % ISBN : 9780429954320
+    % PG 273
+    % 2nd Order Butterworth
     properties (Access=public)
         fc = 0; % cutoff
         fs = 0; % sample rate
